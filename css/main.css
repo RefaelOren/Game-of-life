@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background-image: url(../img/nature.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+header {
+    width: 100%;
+    height: 20%;
+    font-size: larger;
+    color: white;
+    background: rgba(10, 10, 10, 0.4);
+    padding: 2rem 0;
+}
+button {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    background: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover {
+    transform: scale(1.2);
+    background: rgba(45, 220, 18, 0.4);
+}
+.game-center {
+    width: 65vh;
+    height: 65vh;
+    background: rgba(18, 18, 18, 0.5);
+    margin: 5rem auto;
+    border-radius: 20px;
+}
+.game-container {
+    width: 100%;
+    height: 100%;
+}
+table {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+td .taken {
+    cursor: pointer;
+}
+.taken span {
+    padding-top: 0.5rem;
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: rgba(15, 181, 68, 0.15);
+    border-radius: 50%;
+    cursor: pointer;
+}
